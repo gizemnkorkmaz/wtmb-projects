@@ -35,8 +35,10 @@ class Reader {
 printBooks = (books) => {
   console.log(books);
 };
+
 const dune = new Book("Dune", "Frank Herbert", "Sci-fi");
 const hamlet = new Book("Hamlet", "William Shakespeare", "Tragedy");
+
 const besna = new Reader("Besna", 26, hamlet);
 const gizem = new Reader("Gizem", 29, dune);
 
@@ -45,7 +47,7 @@ const gizemBookshelf = new Bookshelf(gizem);
 
 gizemBookshelf.addToBookshelf(dune);
 gizemBookshelf.addToBookshelf(hamlet);
-besnaBookshelf.addToBookshelf(besna);
+besnaBookshelf.addToBookshelf(hamlet);
 
 gizemBookshelf.printBookNames();
 besna.printFavBook();
