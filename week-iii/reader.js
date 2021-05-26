@@ -10,4 +10,7 @@ module.exports = class Reader {
       Chalk.cyan`${this.name}'s favorite book is ${this.favBook.name}`
     );
   }
+  static create({ name, age, favBook }) {
+    return new Reader(name, age, favBook);
+  }
 };
