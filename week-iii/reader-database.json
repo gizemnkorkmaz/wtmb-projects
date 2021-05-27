@@ -1,0 +1,9 @@
+[
+  ["1"],
+  { "name": "2", "age": 29, "favBook": "3", "id": 1 },
+  "Serpil",
+  { "name": "4", "author": "5", "genre": "6" },
+  "Macbeth",
+  "William Shakespeare",
+  "Tragedy"
+]
