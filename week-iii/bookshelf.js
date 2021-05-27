@@ -1,4 +1,6 @@
 const Chalk = require("chalk");
+const Book = require("./book");
+
 module.exports = class Bookshelf {
   constructor(owner, bookList = []) {
     this.owner = owner;
@@ -15,7 +17,10 @@ module.exports = class Bookshelf {
   }
 
   static create({ owner, bookList }) {
-    return new Bookshelf(owner, bookList);
+    const bookshelf = new Bookshelf(owner, bookList);
+
+    bookshelf.bookList = bookList.map(Book.create);
+    return bookshelf;
   }
 };
 
