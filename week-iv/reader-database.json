@@ -1,0 +1,19 @@
+[
+  ["1", "2", "3"],
+  { "name": "4", "age": 29, "favBook": "5", "id": 1 },
+  { "name": "6", "age": 26, "favBook": "7", "id": 2 },
+  { "name": "8", "age": 29, "favBook": "9", "id": 3 },
+  "Serpil",
+  { "name": "10", "author": "11", "genre": "12" },
+  "Besna",
+  { "name": "13", "author": "11", "genre": "12" },
+  "Gizem",
+  { "name": "14", "author": "15", "genre": "16" },
+  "Macbeth",
+  "William Shakespeare",
+  "Tragedy",
+  "Hamlet",
+  "Dune",
+  "Frank Herbert",
+  "Sci-fi"
+]

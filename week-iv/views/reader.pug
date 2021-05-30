@@ -1,0 +1,6 @@
+extends layout 
+
+block content 
+    h1 The number of readers is #{readers.length}
+    each reader in readers
+        h4 #{reader.name} is #{reader.age} years old

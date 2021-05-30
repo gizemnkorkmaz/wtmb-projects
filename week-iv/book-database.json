@@ -1,0 +1,16 @@
+[
+  ["1", "2", "3", "4"],
+  { "name": "5", "author": "6", "genre": "7", "id": 1 },
+  { "name": "8", "author": "9", "genre": "10", "id": 2 },
+  { "name": "11", "author": "6", "genre": "7", "id": 3 },
+  { "name": "12", "author": "13", "id": 5 },
+  "Macbeth",
+  "William Shakespeare",
+  "Tragedy",
+  "Dune",
+  "Frank Herbert",
+  "Sci-fi",
+  "Hamlet",
+  "Lord of the Rings",
+  "J.R.R. Tolkien"
+]

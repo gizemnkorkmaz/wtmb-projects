@@ -1,0 +1,6 @@
+extends layout 
+
+block content 
+    h1 The number of books is #{books.length}
+    each book in books
+        h4 #{book.name} by #{book.author}
